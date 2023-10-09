@@ -1,0 +1,16 @@
+@{
+    Layout = "_Layout";
+}
+
+<link rel="stylesheet" href="site.css">
+<link rel="script" href="site.js">
+<h1>Sign in</h1>
+
+<div class="form-registro">
+    <form action="Url.Action('Login', 'Account')">
+        <label>Username: <input type="text" vlaue = "username"></label>
+        <label>Contraseña: <input type="text" value = "contraseña"></label>
+        <label><input type="submit">Enviar</label>
+    </form>
+</div>
+<button><a href="Url.Action('CambiarContraseña', 'Account')">Olvide mi contraseña</a></button>
